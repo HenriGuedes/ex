@@ -1,0 +1,42 @@
+# Cadastro de Produtos com Destaque por Categoria
+
+## Descrição
+
+Este projeto permite cadastrar produtos com nome, preço e categorias (Tecnologia, Alimentos, Roupas).  
+Os produtos cadastrados aparecem numa lista, com destaque diferente de acordo com a categoria:
+
+- **Tecnologia:** texto em negrito;
+- **Alimentos:** fundo amarelo;
+- **Outras categorias:** estilo normal.
+
+## Funcionalidades
+
+- Validação para garantir que nome e preço estejam preenchidos;
+- Preço deve ser um número maior que zero e com até duas casas decimais;
+- Pelo menos uma categoria deve ser selecionada;
+- Lista atualizada dinamicamente com os produtos;
+- Campos do formulário são limpos após cada cadastro.
+
+## Tecnologias Utilizadas
+
+- HTML para estrutura do formulário;
+- JavaScript para validação e manipulação do DOM.
+
+## Como usar
+
+1. Abra o arquivo `index.html` no navegador;
+2. Digite o nome do produto;
+3. Informe o preço (exemplo: `10.99`);
+4. Selecione uma ou mais categorias;
+5. Clique no botão **Cadastrar Produto**;
+6. Veja o produto aparecer na lista com o destaque correto;
+7. Repita para cadastrar mais produtos.
+
+## Estrutura dos arquivos
+
+- `index.html` - contém o formulário e a lista;
+- `ex.js` - arquivo JavaScript que valida e adiciona os produtos.
+
+## Contato
+
+Para dúvidas ou sugestões, entre em contato com o desenvolvedor.

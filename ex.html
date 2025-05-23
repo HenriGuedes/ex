@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex.css">
+</head>
+
+<body>
+    <form>
+        <p>Cadastro de produtos </p>
+        <input type="text" id="nome" placeholder="digite o nome do produto : ">
+        <br><br>
+        <input type="text" id="preco" placeholder="digite o preço do produto : ">
+
+        <section class="opcoes-section">
+            <h2>Selecione suas opções</h2>
+            <label class="opcao">
+                <input type="checkbox" name="opcao" value="Tecnologia"> Tecnologia
+            </label><br>
+            <label class="opcao">
+                <input type="checkbox" name="opcao" value="Alimentos"> Alimentos
+            </label><br>
+            <label class="opcao">
+                <input type="checkbox" name="opcao" value="Roupas"> Roupas
+            </label><br>
+        </section>
+
+        <button id="botao" onclick=" Cadastrar() ">Cadastrar Produto </button>
+        <br>
+
+    </form>
+    <ul id="MostrarItens"></ul>
+
+</body>
+<script src="ex.js"></script>
+
+</html>
